@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KuzovART — СТО: сварочные работы, покраска авто, ремонт и ТО | Бобруйск, Бахарова 90</title>
+<meta name="description" content="СТО KuzovART в Бобруйске: сварочные работы, локальная и полная покраска, антикоррозийная обработка, компьютерная диагностика, ремонт и ТО. Тел +375 25 905-29-99, ул. Бахарова 90.">
+<script>window.__ok=0;</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;500;600;700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--pl:#9333EA;--plH:#7E22CE;--plL:#C084FC;--plT:rgba(147,51,234,.12);--ink:#131017;--ink2:#1B1522;--put:#F4F2F5;--put2:#EAE6EC;--mut:#7B7480;--mut2:#524B58;--line:rgba(19,16,23,.12);--lined:rgba(244,242,245,.15);--disp:'Alumni Sans',system-ui,sans-serif;--sans:'Nunito Sans',system-ui,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--sans);background:var(--put);color:var(--ink);overflow-x:hidden;font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--disp);font-weight:800;line-height:1.08;letter-spacing:.01em}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+::selection{background:var(--pl);color:#fff}
+.wm{position:fixed;inset:0;z-index:9998;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='460' height='300'%3E%3Ctext x='40' y='150' font-size='26' fill='%234338ca' opacity='.10' font-family='monospace' transform='rotate(-24 40 150)'%3ESiteFast.by%3C/text%3E%3C/svg%3E")}
+.wbadge{position:fixed;right:14px;bottom:14px;z-index:9999;background:#4338ca;color:#fff;font:700 11px/1 var(--sans);padding:7px 10px;border-radius:6px;opacity:.85}
+.cur-dot,.cur-ring{display:none}
+@media(pointer:fine){.cur-dot{display:block;position:fixed;z-index:10000;width:7px;height:7px;border-radius:50%;background:var(--plL);pointer-events:none;transform:translate(-50%,-50%)}.cur-ring{display:block;position:fixed;z-index:10000;width:36px;height:36px;border-radius:50%;border:1.5px solid rgba(192,132,252,.55);pointer-events:none;transform:translate(-50%,-50%);transition:width .25s,height .25s}.cur-ring.big{width:60px;height:60px}}
+.wrap{max-width:1220px;margin:0 auto;padding:0 28px}
+header{position:fixed;top:0;left:0;right:0;z-index:900;background:rgba(19,16,23,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--lined)}
+.hrow{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 28px;max-width:1220px;margin:0 auto;min-height:72px}
+.logo{display:flex;align-items:center;gap:12px;color:var(--put);flex:none}
+.logo .lg-t{font-family:var(--disp);font-size:23px;font-weight:800;white-space:nowrap}
+.logo .lg-t i{font-style:normal;color:var(--plL)}
+.logo .lg-s{font-size:9px;letter-spacing:.26em;text-transform:uppercase;color:#8B8290}
+nav.top{display:flex;gap:2px}
+nav.top a{font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:9px 11px;border-radius:8px;color:#BBAFBF;transition:.2s;white-space:nowrap}
+nav.top a:hover{color:var(--plL)}
+.hcall{display:flex;gap:10px;align-items:center;flex:none}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-weight:700;font-size:13px;letter-spacing:.03em;padding:12px 22px;border-radius:999px;transition:.25s;cursor:pointer;border:none;font-family:var(--sans)}
+.btn-acc{background:var(--pl);color:#fff}
+.btn-acc:hover{background:var(--plH)}
+.btn-ghost{border:1.5px solid rgba(244,242,245,.28);color:var(--put)}
+.btn-ghost:hover{border-color:var(--plL);color:var(--plL)}
+.burger{display:none;background:none;border:1px solid var(--lined);border-radius:9px;padding:9px 10px;cursor:pointer}
+.burger span{display:block;width:20px;height:2px;background:var(--put);margin:4px 0}
+.hero{min-height:100svh;display:flex;align-items:flex-end;padding:150px 0 60px;position:relative;overflow:hidden;background:var(--ink);color:var(--put)}
+.hero .wrap{position:relative;z-index:2;width:100%}
+.hero::before{content:'';position:absolute;right:-120px;top:90px;width:460px;height:460px;border-radius:50%;border:1.5px dashed rgba(192,132,252,.35);animation:spin 46s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.h-kick{display:inline-flex;align-items:center;gap:12px;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:#CCC2D4;border:1px solid rgba(244,242,245,.25);border-radius:999px;padding:10px 18px;background:rgba(19,16,23,.4)}
+.h-kick i{width:8px;height:8px;border-radius:50%;background:var(--plL);animation:blink 1.9s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+.hero h1{font-size:clamp(36px,6.4vw,86px);margin:26px 0 14px;max-width:960px}
+.hero h1 em{font-style:normal;color:var(--plL)}
+.h-sub{font-size:19px;color:#CCC2D4;max-width:700px}
+.h-cta{display:flex;gap:14px;margin-top:36px;flex-wrap:wrap}
+.h-chips{display:flex;gap:10px;margin-top:32px;flex-wrap:wrap}
+.chip{font-size:12.5px;padding:9px 16px;border-radius:999px;border:1px solid rgba(192,132,252,.45);color:var(--plL);background:rgba(147,51,234,.14)}
+.chip b{font-weight:700}
+.h-tel{margin-top:32px}
+.h-tel a{font-family:var(--disp);font-size:26px;color:var(--put);border-bottom:1.5px solid rgba(192,132,252,.5);transition:.2s;font-weight:700}
+.h-tel a:hover{color:var(--plL)}
+.marquee{overflow:hidden;border-top:1px solid var(--lined);border-bottom:1px solid var(--lined);padding:15px 0;background:var(--ink)}
+.mq-t{display:flex;width:max-content;animation:mq 36s linear infinite}
+.mq-t span{font-family:var(--disp);font-size:16px;letter-spacing:.08em;padding:0 26px;white-space:nowrap;color:#8B8290;text-transform:uppercase;font-weight:600}
+.mq-t span i{font-style:normal;color:var(--plL);margin-left:26px}
+@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+section.blk{padding:100px 0}
+.blk.dark{background:var(--ink);color:var(--put)}
+.kick{font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--pl);margin-bottom:18px;display:flex;align-items:center;gap:12px;font-weight:700}
+.kick::before{content:'';width:42px;height:1px;background:var(--pl)}
+.blk.dark .kick{color:var(--plL)}
+.blk.dark .kick::before{background:var(--plL)}
+h2{font-size:clamp(30px,4.8vw,58px)}
+h2 em{font-style:normal;color:var(--pl)}
+.blk.dark h2 em{color:var(--plL)}
+.lead{font-size:18px;color:#524B58;max-width:780px;margin-top:16px}
+.blk.dark .lead{color:#BBAFBF}
+.svcs{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:14px;margin-top:46px}
+.svc{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px 26px;transition:transform .4s cubic-bezier(.16,1,.3,1),border-color .3s}
+.svc:hover{transform:translateY(-5px);border-color:rgba(147,51,234,.5)}
+.svc .s-ic{width:46px;height:46px;border-radius:12px;background:var(--plT);display:flex;align-items:center;justify-content:center;color:var(--pl);margin-bottom:14px}
+.svc h3{font-size:19px;margin-bottom:8px}
+.svc ul{list-style:none}
+.svc li{padding:5px 0 5px 22px;position:relative;font-size:14.5px;color:#524B58}
+.svc li::before{content:'';position:absolute;left:0;top:12px;width:11px;height:3px;background:var(--pl)}
+.wow{background:var(--ink2);border:1px solid var(--lined);border-radius:22px;padding:clamp(18px,3vw,40px);color:var(--put);position:relative;overflow:hidden;margin-top:48px}
+.wow svg{width:100%;height:auto;display:block}
+.wtabs{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;align-items:center}
+.wtabs .wl{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#8B8290;font-weight:700;margin-right:6px}
+.wtab{background:none;border:1.5px solid rgba(244,242,245,.2);color:#BBAFBF;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;padding:9px 16px;border-radius:999px;cursor:pointer;transition:.25s;font-family:var(--sans);display:inline-flex;align-items:center;gap:8px}
+.wtab:hover{border-color:rgba(192,132,252,.6)}
+.wtab.on{border-color:var(--plL);color:#fff;background:rgba(147,51,234,.25)}
+.wtab .sw{width:12px;height:12px;border-radius:50%;display:inline-block}
+.wow-cap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:12px;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:#8B8290}
+.wow-cap b{color:var(--plL);font-weight:700}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:46px}
+.stp{background:var(--ink2);border:1px solid var(--lined);border-radius:18px;padding:26px 22px;transition:transform .4s cubic-bezier(.16,1,.3,1),border-color .3s}
+.stp:hover{transform:translateY(-5px);border-color:rgba(192,132,252,.55)}
+.stp .sn{font-family:var(--disp);font-size:40px;color:var(--plL);font-weight:800}
+.stp h3{color:var(--put);font-size:15.5px;margin:10px 0 8px}
+.stp p{font-size:14px;color:#9A90A3}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-top:46px}
+.wc{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px 24px;transition:transform .4s cubic-bezier(.16,1,.3,1),border-color .3s}
+.wc:hover{transform:translateY(-5px);border-color:rgba(147,51,234,.5)}
+.wc h3{font-size:16.5px;margin-bottom:6px}
+.wc p{font-size:14.5px;color:#7B7480}
+.galer{display:grid;grid-template-columns:1fr 1.4fr;gap:14px;margin-top:44px}
+.gcell a{display:block;border-radius:16px;overflow:hidden;background:var(--ink2)}
+.gcell img{width:100%;object-fit:cover;transition:transform .6s cubic-bezier(.16,1,.3,1)}
+.gcell:hover img{transform:scale(1.04)}
+.gside{background:var(--ink2);border:1px solid var(--lined);border-radius:16px;padding:30px;display:flex;flex-direction:column;justify-content:center}
+.gside .gs-n{font-family:var(--disp);font-size:42px;color:var(--plL);font-weight:800}
+.gside p{font-size:14.5px;color:#9A90A3;margin-top:6px}
+.faq{max-width:860px;margin:44px auto 0}
+.q{border-bottom:1px solid var(--line)}
+.q button{width:100%;background:none;border:none;text-align:left;padding:22px 4px;font-family:var(--sans);font-size:17px;font-weight:700;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;gap:16px;align-items:center}
+.q button::after{content:'+';font-size:24px;color:var(--pl);transition:.3s;flex:none}
+.q.open button::after{transform:rotate(45deg)}
+.q .a{max-height:0;overflow:hidden;transition:max-height .45s cubic-bezier(.16,1,.3,1)}
+.q .a p{padding:0 4px 22px;color:#524B58;font-size:15.5px}
+.ccard{background:var(--ink2);border:1px solid var(--lined);border-radius:18px;padding:30px}
+.ccard .ctel{font-family:var(--disp);font-size:30px;display:block;color:var(--put);transition:.2s;font-weight:800}
+.ccard .ctel:hover{color:var(--plL)}
+.cgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:46px 0 40px}
+.frm{display:grid;gap:13px;max-width:620px}
+form label{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:#9A90A3;display:block;margin-bottom:6px;font-weight:700}
+form input,form select,form textarea{width:100%;background:var(--ink2);border:1px solid var(--lined);border-radius:11px;padding:13px 15px;font-size:15.5px;font-family:var(--sans);color:var(--put)}
+form input::placeholder,form textarea::placeholder{color:#7B7480}
+form input:focus,form select:focus,form textarea:focus{outline:none;border-color:var(--plL)}
+.ok-msg{display:none;background:rgba(147,51,234,.25);color:var(--plL);border:1px solid rgba(192,132,252,.5);border-radius:11px;padding:13px 15px;font-size:14px;font-weight:700}
+footer{background:var(--ink);color:#8B8290;padding:52px 0 130px;font-size:14px}
+.ft{display:flex;justify-content:space-between;gap:26px;flex-wrap:wrap;margin-bottom:26px}
+.ft .ft-logo{font-family:var(--disp);font-size:24px;color:var(--put);font-weight:800}
+.ft .ft-logo i{font-style:normal;color:var(--plL)}
+.fnav{display:flex;gap:20px;flex-wrap:wrap;max-width:560px}
+.fnav a{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#9A90A3}
+.fnav a:hover{color:var(--plL)}
+.wm-line{border-top:1px solid var(--lined);padding-top:18px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:11.5px}
+.wa-fab{position:fixed;left:16px;bottom:16px;z-index:9990;display:flex;align-items:center;gap:10px;background:#25D366;color:#fff;font-weight:700;font-size:12.5px;padding:13px 20px;border-radius:999px;box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.wa-fab:hover{background:#1FB95A}
+.lbbox{display:none;position:fixed;inset:0;z-index:9995;background:rgba(16,13,20,.92);align-items:center;justify-content:center;padding:26px}
+.lbbox.on{display:flex}
+.lbbox img{max-width:92vw;max-height:88vh;border-radius:10px}
+.lbbox button{position:absolute;top:20px;right:24px;background:none;border:none;color:var(--put);font-size:38px;cursor:pointer;line-height:1}
+.fx{opacity:0;transform:translateY(26px)}
+body.js .fx{transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
+body.js .fx.in{opacity:1;transform:none}
+.d1{transition-delay:.08s!important}.d2{transition-delay:.16s!important}.d3{transition-delay:.24s!important}
+@media(max-width:1060px){.steps{grid-template-columns:repeat(3,1fr)}.galer{grid-template-columns:1fr}}
+@media(max-width:900px){.hrow{min-height:62px}nav.top{position:absolute;top:100%;left:0;right:0;background:var(--ink);border-bottom:1px solid var(--lined);flex-direction:column;align-items:stretch;padding:12px 28px;display:none}nav.top.open{display:flex}nav.top a{padding:11px 0}.burger{display:block}.hcall .btn-ghost{display:none}.svcs{grid-template-columns:1fr}}
+@media(max-width:600px){.hcall{display:none}footer{padding-bottom:160px}section.blk{padding:66px 0}.steps{grid-template-columns:1fr}.h-tel a{font-size:21px}.cgrid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wm"></div>
+<div class="wbadge">МАКЕТ: SiteFast.by</div>
+<div class="cur-dot" id="cdot"></div><div class="cur-ring" id="cring"></div>
+<header>
+  <div class="hrow">
+    <a href="#" class="logo">
+      <div><div class="lg-t">Kuzov<i>ART</i></div><div class="lg-s">СТО · кузовной ремонт и покраска · Бобруйск</div></div>
+    </a>
+    <nav class="top" id="nav">
+      <a href="#services">Услуги</a>
+      <a href="#restore">Реставрация</a>
+      <a href="#steps">Как работаем</a>
+      <a href="#why">Почему мы</a>
+      <a href="#faq">Вопросы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="hcall">
+      <a href="tel:+375259052999" class="btn btn-ghost">+375 25 905-29-99</a>
+      <a href="#contacts" class="btn btn-acc">Записаться</a>
+      <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<main>
+<section class="hero">
+  <div class="wrap">
+    <span class="h-kick"><i></i>СТО KuzovART · Бобруйск, ул. Бахарова 90</span>
+    <h1>Вернём автомобилю <em>надёжность, безопасность и внешний вид</em></h1>
+    <p class="h-sub">Сварочные работы, покраска, антикоррозийная обработка, компьютерная диагностика, ремонт и ТО — полный комплекс услуг по ремонту, восстановлению и обслуживанию автомобилей.</p>
+    <div class="h-cta">
+      <a href="tel:+375259052999" class="btn btn-acc">Запись: +375 25 905-29-99</a>
+      <a href="#services" class="btn btn-ghost">Все услуги</a>
+    </div>
+    <div class="h-chips">
+      <span class="chip">сварочные работы</span>
+      <span class="chip">локальная и <b>полная покраска</b></span>
+      <span class="chip">антикор</span>
+      <span class="chip">диагностика</span>
+      <span class="chip">честные цены</span>
+    </div>
+    <div class="h-tel"><a href="tel:+375259052999">+375 25 905-29-99</a></div>
+  </div>
+</section>
+<div class="marquee"><div class="mq-t">
+<span>СВАРОЧНЫЕ РАБОТЫ <i>✦</i> ПОКРАСКА АВТОМОБИЛЕЙ <i>✦</i> АНТИКОРРОЗИЙНАЯ ОБРАБОТКА <i>✦</i> КОМПЬЮТЕРНАЯ ДИАГНОСТИКА <i>✦</i> РЕМОНТ И ТО <i>✦</i> КАЧЕСТВЕННЫЕ МАТЕРИАЛЫ <i>✦</i> ЧЕСТНЫЕ ЦЕНЫ <i>✦</i> </span>
+<span>СВАРОЧНЫЕ РАБОТЫ <i>✦</i> ПОКРАСКА АВТОМОБИЛЕЙ <i>✦</i> АНТИКОРРОЗИЙНАЯ ОБРАБОТКА <i>✦</i> КОМПЬЮТЕРНАЯ ДИАГНОСТИКА <i>✦</i> РЕМОНТ И ТО <i>✦</i> КАЧЕСТВЕННЫЕ МАТЕРИАЛЫ <i>✦</i> ЧЕСТНЫЕ ЦЕНЫ <i>✦</i> </span>
+</div></div>
+
+<section class="blk" id="services">
+<div class="wrap">
+  <div class="kick">Услуги</div>
+  <h2>Полный комплекс: <em>от сварки до покраски</em></h2>
+  <p class="lead">Ремонт, восстановление и обслуживание автомобилей — всё в одних руках, без поездок по разным мастерским.</p>
+  <div class="svcs">
+    <div class="svc fx"><div class="s-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 3L4 14h6l-1 7 9-11h-6l1-7z"/></svg></div><h3>Сварочные работы</h3><ul><li>ремонт кузова любой сложности</li><li>восстановление повреждённых элементов</li><li>устранение коррозии и деформаций</li></ul></div>
+    <div class="svc fx d1"><div class="s-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h11a4 4 0 018 0"/><path d="M3 14h4a3 3 0 006 0h8"/><circle cx="18" cy="18" r="2" fill="currentColor" stroke="none"/></svg></div><h3>Покраска автомобилей</h3><ul><li>локальная и полная покраска</li><li>качественная подготовка кузова</li><li>устранение царапин, сколов и вмятин</li></ul></div>
+    <div class="svc fx d2"><div class="s-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M8 12l3 3 5-6"/></svg></div><h3>Антикоррозийная обработка</h3><ul><li>защита кузова и днища</li><li>обработка скрытых полостей</li><li>продление срока службы автомобиля</li></ul></div>
+    <div class="svc fx"><div class="s-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9zM4 9h5M4 15h5M15 9h5M15 15h5M9 4v5M15 4v5M9 15v5M15 15v5"/></svg></div><h3>Компьютерная диагностика</h3><ul><li>выявление неисправностей электронных систем</li><li>диагностика двигателя, АКПП и других узлов</li><li>профессиональное считывание и удаление ошибок</li></ul></div>
+    <div class="svc fx d1"><div class="s-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.2 2.2M16.9 16.9l2.1 2.1M19.1 4.9l-2.2 2.2M7.1 16.9l-2.2 2.1"/></svg></div><h3>Ремонт и техническое обслуживание</h3><ul><li>ремонт ходовой части и тормозной системы</li><li>обслуживание двигателя и трансмиссии</li><li>подготовка к сезону и дальней поездке</li></ul></div>
+    <div class="svc fx d2"><div class="s-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21C7 17 3 13.5 3 9.5A4.5 4.5 0 0112 6a4.5 4.5 0 019 3.5c0 4-4 7.5-9 11.5z"/></svg></div><h3>Бережное отношение</h3><ul><li>ваш автомобиль заслуживает качественного ремонта</li><li>профессиональный подход к каждому клиенту</li><li>качественные материалы и честные цены</li></ul></div>
+  </div>
+</div>
+</section>
+
+<section class="blk dark" id="restore">
+<div class="wrap">
+  <div class="kick">Реставрация кузова</div>
+  <h2 style="color:var(--put)">Из повреждённого — <em>как с завода</em></h2>
+  <p class="lead">Смотрите, как ржавое крыло со «рваным» краем проходит путь реставрации: сварка, шпаклёвка, покраска. Выберите цвет — и кузов зазвенит.</p>
+  <div class="wow" id="wowbox">
+    <div class="wtabs">
+      <span class="wl">Цвет покраски:</span>
+      <button class="wtab on" data-w="white"><span class="sw" style="background:#EDEDED"></span>Белый</button>
+      <button class="wtab" data-w="blue"><span class="sw" style="background:#2E5FA3"></span>Синий металлик</button>
+      <button class="wtab" data-w="cherry"><span class="sw" style="background:#7E2231"></span>Вишня</button>
+    </div>
+    <svg viewBox="0 0 900 430" role="img" aria-label="Реставрация крыла автомобиля: сварка, шпаклёвка, покраска">
+      <!-- пол мастерской -->
+      <rect x="0" y="392" width="900" height="38" fill="#171219"/>
+      <line x1="0" y1="392" x2="900" y2="392" stroke="#251C2B" stroke-width="2"/>
+      <!-- автомобиль: силуэт сбоку -->
+      <g id="carG">
+        <path id="bodyP" d="M120 330 L120 285 Q120 250 175 240 L280 218 Q330 208 400 214 L560 240 Q640 250 660 275 L665 330 Z" fill="#3D3346" stroke="#5A4C66" stroke-width="2"/>
+        <rect x="240" y="228" width="120" height="52" rx="10" fill="#221A28" opacity=".55"/>
+        <rect x="384" y="224" width="110" height="56" rx="10" fill="#221A28" opacity=".55"/>
+        <!-- колёса -->
+        <circle cx="235" cy="330" r="30" fill="#131017" stroke="#4A3E54" stroke-width="5"/>
+        <circle cx="235" cy="330" r="11" fill="#4A3E54"/>
+        <circle cx="530" cy="330" r="30" fill="#131017" stroke="#4A3E54" stroke-width="5"/>
+        <circle cx="530" cy="330" r="11" fill="#4A3E54"/>
+      </g>
+      <!-- повреждение: рваная ржавая зона на крыле (перед дверью) -->
+      <g id="rustG">
+        <path id="holeP" d="M610 300 L630 285 L622 305 L648 298 L638 318 L660 315 L652 335 L618 340 Q600 330 605 315 Z" fill="#5C3A26" stroke="#7A4A2E" stroke-width="2.5"/>
+        <g id="rustSpots">
+          <circle cx="580" cy="290" r="6" fill="#5C3A26"/>
+          <circle cx="600" cy="325" r="8" fill="#53331F"/>
+          <circle cx="565" cy="315" r="5" fill="#5C3A26"/>
+        </g>
+      </g>
+      <!-- заплата после сварки -->
+      <path id="patchP" d="M610 300 L630 285 L622 305 L648 298 L638 318 L660 315 L652 335 L618 340 Q600 330 605 315 Z" fill="#8A8494" stroke="#A8A2B2" stroke-width="2" opacity="0"/>
+      <!-- сварочная дуга -->
+      <g id="arcG" opacity="0">
+        <circle id="arcDot" cx="610" cy="300" r="5" fill="#BFD4FF"/>
+        <circle cx="610" cy="300" r="10" fill="rgba(160,200,255,.35)"/>
+      </g>
+      <g id="sparksG"></g>
+      <!-- шпаклёвочная зона -->
+      <rect id="puttyR" x="596" y="282" width="76" height="62" rx="8" fill="#B9AFA4" opacity="0"/>
+      <!-- шлифмашина -->
+      <g id="sanderG" opacity="0">
+        <rect x="-22" y="-14" width="44" height="22" rx="6" fill="#4A3E54"/>
+        <circle cx="0" cy="-3" r="9" fill="#9333EA" opacity=".85"/>
+      </g>
+      <!-- краскопульт -->
+      <g id="gunG" opacity="0">
+        <rect x="-16" y="-18" width="34" height="22" rx="5" fill="#4A3E54"/>
+        <rect x="14" y="-14" width="14" height="10" rx="2" fill="#9333EA"/>
+        <circle cx="32" cy="-9" r="4" fill="#C084FC"/>
+      </g>
+      <!-- конус распыла -->
+      <polygon id="sprayP" points="0,0 0,0 0,0" fill="rgba(192,132,252,.3)" opacity="0"/>
+      <!-- полоса свежей краски (маска поверх кузова) -->
+      <path id="paintP" d="M120 285 Q120 250 175 240 L280 218 Q330 208 400 214 L560 240 Q640 250 660 275 L665 330 L120 330 Z" fill="#EDEDED" opacity="0"/>
+      <!-- блик полироли -->
+      <ellipse id="shineE" cx="0" cy="0" rx="52" ry="10" fill="rgba(255,255,255,.4)" opacity="0"/>
+      <!-- счётчики -->
+      <text x="60" y="90" font-size="11" fill="#8B8290" letter-spacing="3" font-family="Nunito Sans">ЭТАП</text>
+      <text id="wPhase" x="58" y="124" font-size="26" fill="#F4F2F5" font-family="Alumni Sans" font-weight="800">ОСМОТР</text>
+      <text id="wPctT" x="60" y="156" font-size="11" fill="#8B8290" letter-spacing="3" font-family="Nunito Sans">ГОТОВНОСТЬ КУЗОВА</text>
+      <text id="wPct" x="58" y="196" font-size="44" fill="#C084FC" font-family="Alumni Sans" font-weight="800">0%</text>
+      <!-- штамп -->
+      <g id="wStamp" opacity="0" transform="rotate(-5 470 60)">
+        <rect x="292" y="30" width="356" height="58" rx="10" fill="none" stroke="#C084FC" stroke-width="2.5"/>
+        <text x="470" y="56" font-size="14" fill="#C084FC" text-anchor="middle" letter-spacing="2.5" font-weight="700" font-family="Nunito Sans">НАДЁЖНОСТЬ · БЕЗОПАСНОСТЬ · ВИД</text>
+        <text x="470" y="76" font-size="10" fill="#C084FC" text-anchor="middle" letter-spacing="2" font-family="Nunito Sans">KUZOVART · СВАРКА · ПОКРАСКА · БОБРУЙСК</text>
+      </g>
+    </svg>
+    <div class="wow-cap"><span>Сварка → шпаклёвка → шлифовка → покраска → полировка</span><b>Цикл ~5.6 с</b></div>
+  </div>
+</div>
+</section>
+<section class="blk" id="steps">
+<div class="wrap">
+  <div class="kick">Как работаем</div>
+  <h2>Запись на ремонт: <em>пять шагов</em></h2>
+  <div class="tblwrap" style="overflow-x:auto;margin-top:40px;border:1px solid var(--line);border-radius:16px;background:#fff"><table style="width:100%;min-width:560px;border-collapse:collapse;font-size:15.5px">
+    <tr><th style="padding:15px 18px;text-align:left;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--pl);font-weight:700;background:#FAF8FB">Параметр</th><th style="padding:15px 18px;text-align:left;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--pl);font-weight:700;background:#FAF8FB">Значение</th></tr>
+    <tr><td style="padding:15px 18px;border-bottom:1px solid var(--line);font-weight:700">Адрес СТО</td><td style="padding:15px 18px;border-bottom:1px solid var(--line)">Бобруйск, ул. Бахарова 90</td></tr>
+    <tr><td style="padding:15px 18px;border-bottom:1px solid var(--line);font-weight:700">Телефон</td><td style="padding:15px 18px;border-bottom:1px solid var(--line)">+375 25 905-29-99</td></tr>
+    <tr><td style="padding:15px 18px;border-bottom:1px solid var(--line);font-weight:700">УНП</td><td style="padding:15px 18px;border-bottom:1px solid var(--line)">194042377</td></tr>
+    <tr><td style="padding:15px 18px;font-weight:700">Специализация</td><td style="padding:15px 18px">кузовной ремонт и покраска · сварочные работы · ТО</td></tr>
+  </table></div>
+  <div class="steps" style="margin-top:16px">
+    <div class="stp fx"><div class="sn">01</div><h3>Звонок</h3><p>Запись на ремонт и консультация по телефону.</p></div>
+    <div class="stp fx d1"><div class="sn">02</div><h3>Осмотр</h3><p>Смотрим кузов, оцениваем объём работ честно.</p></div>
+    <div class="stp fx d2"><div class="sn">03</div><h3>Ремонт</h3><p>Сварка, восстановление элементов, устранение деформаций.</p></div>
+    <div class="stp fx d3"><div class="sn">04</div><h3>Покраска</h3><p>Подготовка кузова и покраска качественными материалами.</p></div>
+    <div class="stp fx"><div class="sn">05</div><h3>Выдача</h3><p>Забираете автомобиль с надёжным и красивым кузовом.</p></div>
+  </div>
+</div>
+</section>
+
+<section class="blk dark" id="why" style="background:var(--ink)">
+<div class="wrap">
+  <div class="kick">Почему KuzovART</div>
+  <h2 style="color:var(--put)">Четыре причины <em>доверить нам автомобиль</em></h2>
+  <p class="lead">Ваш автомобиль заслуживает качественного ремонта и бережного отношения — это не лозунг, а рабочий принцип мастерской.</p>
+  <div class="why">
+    <div class="stp fx"><div class="sn" style="font-size:20px">ПРОФЕССИОНАЛЬНЫЙ ПОДХОД</div><h3 style="margin-top:10px">Ремонт кузова любой сложности</h3><p>Сварка, восстановление элементов, работа с коррозией и деформациями.</p></div>
+    <div class="stp fx d1"><div class="sn" style="font-size:20px">КАЧЕСТВЕННЫЕ МАТЕРИАЛЫ</div><h3 style="margin-top:10px">Шпаклёвки, лаки, антикор</h3><p>Готовим кузов и красим материалами, которым доверяем сами.</p></div>
+    <div class="stp fx d2"><div class="sn" style="font-size:20px">ЧЕСТНЫЕ ЦЕНЫ</div><h3 style="margin-top:10px">Оценка до начала работ</h3><p>Называем стоимость за ремонт до того, как взяли в руки инструмент.</p></div>
+    <div class="stp fx d3"><div class="sn" style="font-size:20px">ИНДИВИДУАЛЬНЫЙ ПОДХОД</div><h3 style="margin-top:10px">К каждому клиенту</h3><p>У каждой машины своя история повреждений — и свой план ремонта.</p></div>
+  </div>
+  <div class="galer" style="margin-top:44px">
+    <div class="gcell"><a href="img/sto.jpg" data-lb><img src="img/sto.jpg" alt="СТО KuzovART — фото из объявления" loading="lazy" style="aspect-ratio:460/690"></a></div>
+    <div class="gside">
+      <div class="gs-n">Бахарова 90</div>
+      <p>адрес СТО в Бобруйске — приезжайте на осмотр</p>
+      <div class="gs-n" style="margin-top:16px">5 направлений</div>
+      <p>сварка · покраска · антикор · диагностика · ТО</p>
+      <div class="gs-n" style="margin-top:16px">С 2021</div>
+      <p>мастерская на Куфаре с ноября 2021 года</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="blk" id="faq">
+<div class="wrap">
+  <div class="kick">Вопросы</div>
+  <h2>Частые вопросы <em>о ремонте и покраске</em></h2>
+  <div class="faq">
+    <div class="q"><button>Сколько стоит кузовной ремонт или покраска?</button><div class="a"><p>Зависит от объёма: локальная покраска элемента, ремонт после ДТП или полная покраска — разные работы. Честные цены: осмотрим автомобиль на Бахарова 90 и назовём стоимость до начала работ.</p></div></div>
+    <div class="q"><button>Можно ли покрасить только одно крыло или дверь?</button><div class="a"><p>Да, локальная покраска — одна из основных услуг: подкрашиваем отдельный элемент с подбором цвета, без разборки полмашины.</p></div></div>
+    <div class="q"><button>У меня сквозная коррозия на пороге. Справитесь?</button><div class="a"><p>Да: сварочные работы — ремонт кузова любой сложности, восстановление повреждённых элементов, устранение коррозии и деформаций.</p></div></div>
+    <div class="q"><button>Что входит в антикоррозийную обработку?</button><div class="a"><p>Защита кузова и днища, обработка скрытых полостей — это продлевает срок службы автомобиля и спасает от соли зимой.</p></div></div>
+    <div class="q"><button>Горит «чек». Вы считываете ошибки?</button><div class="a"><p>Да: компьютерная диагностика — выявление неисправностей электронных систем, диагностика двигателя, АКПП и других узлов, профессиональное считывание и удаление ошибок.</p></div></div>
+    <div class="q"><button>Готовите машину к зиме или дальней поездке?</button><div class="a"><p>Да: подготовка автомобиля к сезону и дальней поездке входит в ремонт и техническое обслуживание — ходовая, тормоза, двигатель, трансмиссия.</p></div></div>
+  </div>
+</div>
+</section>
+
+<section class="blk dark" id="contacts" style="background:var(--ink)">
+<div class="wrap">
+  <div class="kick">Контакты</div>
+  <h2 style="color:var(--put)">Запись на ремонт <em>и консультация</em></h2>
+  <div class="cgrid">
+    <div class="ccard fx">
+      <div style="font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--plL);font-weight:700">Телефон · WhatsApp · Viber</div>
+      <a class="ctel" href="tel:+375259052999">+375 25 905-29-99</a>
+      <p style="font-size:13px;color:#9A90A3;margin-top:8px">Звоните — запишем на ремонт и ответим на вопросы</p>
+    </div>
+    <div class="ccard fx d1">
+      <div style="font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--plL);font-weight:700">Адрес СТО</div>
+      <div class="ctel" style="font-family:var(--disp);font-size:26px">Бобруйск, Бахарова 90</div>
+      <p style="font-size:13px;color:#9A90A3;margin-top:8px">СТО KuzovART · УНП 194042377</p>
+    </div>
+  </div>
+  <h3 style="font-size:22px;margin-bottom:22px;color:var(--put)">Заявка на ремонт</h3>
+  <form id="jform" novalidate>
+    <div class="frm" style="color:var(--put)">
+      <div><label for="f-name">Ваше имя</label><input id="f-name" required placeholder="Как к вам обращаться"></div>
+      <div><label for="f-tel">Телефон</label><input id="f-tel" required placeholder="+375 __ ___-__-__"></div>
+      <div><label for="f-svc">Услуга</label><select id="f-svc"><option>Сварочные работы</option><option>Покраска (локальная / полная)</option><option>Антикоррозийная обработка</option><option>Компьютерная диагностика</option><option>Ремонт и ТО</option><option>Ещё не знаю — нужна консультация</option></select></div>
+      <div><label for="f-msg">Что с автомобилем</label><textarea id="f-msg" placeholder="Модель авто, что случилось: коррозия, вмятина, царапины, шум, горит чек..."></textarea></div>
+      <button class="btn btn-acc" type="submit">Отправить заявку</button>
+      <div class="ok-msg" id="fok">Спасибо! Перезвоним и запишем на осмотр.</div>
+    </div>
+  </form>
+  <p style="margin-top:30px;font-size:13.5px;color:#8B8290">СТО KuzovART · Бобруйск, ул. Бахарова 90 · УНП 194042377 · тел +375 25 905-29-99</p>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<div class="ft">
+  <div>
+    <div class="ft-logo">Kuzov<i>ART</i></div>
+    <div style="font-size:12px;margin-top:8px;letter-spacing:.2em;text-transform:uppercase">СТО · Бобруйск · Бахарова 90</div>
+    <div style="margin-top:14px"><a href="tel:+375259052999" style="color:var(--plL);font-family:var(--disp);font-size:18px;font-weight:800">+375 25 905-29-99</a></div>
+  </div>
+  <div class="fnav">
+    <a href="#services">Услуги</a><a href="#restore">Реставрация</a><a href="#steps">Как работаем</a><a href="#why">Почему мы</a><a href="#faq">Вопросы</a><a href="#contacts">Контакты</a>
+  </div>
+</div>
+<div class="wm-line">
+  <span>Бобруйск · сварочные работы · покраска авто · антикор · диагностика · ТО</span>
+  <span>Макет подготовлен SiteFast.by</span>
+</div>
+</div>
+</footer>
+<a class="wa-fab" href="https://wa.me/375259052999" target="_blank" rel="noopener" aria-label="WhatsApp">
+<svg width="17" height="17" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.4 14.1c-.2.7-1.3 1.3-1.8 1.3-.5.1-1.1.1-1.8-.1a13 13 0 01-4.2-2.6 11 11 0 01-2.3-3.5c-.2-.6-.3-1.2-.1-1.7.2-.5.9-1.2 1.4-1.2.3 0 .6 0 .8.6l.7 1.6c.1.2 0 .5-.1.7l-.4.6c-.1.2-.2.3 0 .6.5.9 1.1 1.6 2 2.2.6.5 1.1.8 1.6 1 .3.1.5 0 .6-.1l.7-.8c.2-.2.4-.2.6-.1l1.6.8c.5.2.4.5.4.7z"/></svg>
+<span>WhatsApp</span>
+</a>
+<div class="lbbox" id="lbbox"><button id="lbclose" aria-label="Закрыть">×</button><img id="lbimg" alt=""></div>
+<script>
+document.body.classList.add('js');
+function scanReveal(){
+  var els=document.querySelectorAll('.fx:not(.in)'), vh=window.innerHeight||800;
+  for(var i=0;i<els.length;i++){
+    var r=els[i].getBoundingClientRect();
+    if(r.top<vh-40&&r.bottom>0) els[i].classList.add('in');
+  }
+}
+setInterval(scanReveal,400); scanReveal();
+document.getElementById('burger').addEventListener('click',function(){document.getElementById('nav').classList.toggle('open')});
+document.querySelectorAll('nav.top a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('nav').classList.remove('open')})});
+(function(){
+  var c=document.getElementById('cdot'), r=document.getElementById('cring');
+  if(!c||!window.matchMedia('(pointer:fine)').matches) return;
+  var x=-100,y=-100,rx=-100,ry=-100;
+  document.addEventListener('mousemove',function(e){x=e.clientX;y=e.clientY;c.style.left=x+'px';c.style.top=y+'px';});
+  (function loop(){rx+=(x-rx)*.16;ry+=(y-ry)*.16;r.style.left=rx+'px';r.style.top=ry+'px';requestAnimationFrame(loop);})();
+  document.querySelectorAll('a,button,.gcell,.svc,.q').forEach(function(el){
+    el.addEventListener('mouseenter',function(){r.classList.add('big')});
+    el.addEventListener('mouseleave',function(){r.classList.remove('big')});
+  });
+})();
+document.querySelectorAll('.q button').forEach(function(b){
+  b.addEventListener('click',function(){
+    var q=b.parentElement, a=q.querySelector('.a');
+    var open=q.classList.contains('open');
+    document.querySelectorAll('.q.open').forEach(function(o){o.classList.remove('open');o.querySelector('.a').style.maxHeight=0;});
+    if(!open){q.classList.add('open');a.style.maxHeight=a.scrollHeight+'px';}
+  });
+});
+/* ВАУ: реставрация крыла — сварка → шпаклёвка → шлифовка → покраска */
+(function(){
+  var box=document.getElementById('wowbox'); if(!box) return;
+  var g=function(id){return document.getElementById(id)};
+  var patchP=g('patchP'), arcG=g('arcG'), arcDot=g('arcDot'), sparksG=g('sparksG'),
+      puttyR=g('puttyR'), sanderG=g('sanderG'), gunG=g('gunG'), sprayP=g('sprayP'),
+      paintP=g('paintP'), shineE=g('shineE'), rustG=g('rustG'),
+      phase=g('wPhase'), pct=g('wPct'), stamp=g('wStamp');
+  var COLORS={white:'#EDEDED',blue:'#2E5FA3',cherry:'#7E2231'};
+  var MODE='white';
+  /* маска покраски: краска наливается слева от краскопульта */
+  var NS='http://www.w3.org/2000/svg';
+  var clip=document.createElementNS(NS,'clipPath'); clip.setAttribute('id','paintClip');
+  var clipRect=document.createElementNS(NS,'rect');
+  clipRect.setAttribute('x','100'); clipRect.setAttribute('y','200'); clipRect.setAttribute('width','0'); clipRect.setAttribute('height','200');
+  clip.appendChild(clipRect);
+  box.querySelector('svg defs')||box.querySelector('svg').insertBefore(clip,box.querySelector('svg').firstChild);
+  paintP.setAttribute('clip-path','url(#paintClip)');
+  function setMode(m){
+    MODE=m;
+    paintP.setAttribute('fill',COLORS[m]);
+  }
+  setMode('white');
+  document.querySelectorAll('.wtab').forEach(function(t){
+    t.addEventListener('click',function(){
+      document.querySelectorAll('.wtab').forEach(function(x){x.classList.remove('on')});
+      t.classList.add('on');
+      setMode(t.getAttribute('data-w'));
+    });
+  });
+  /* точки контура дыры для дуги */
+  var HOLE=[[610,300],[630,285],[622,305],[648,298],[638,318],[660,315],[652,335],[618,340],[605,315]];
+  var PH=[['ОСМОТР ПОВРЕЖДЕНИЯ',0,.12],['СВАРОЧНЫЕ РАБОТЫ',.12,.28],['ШПАКЛЁВКА',.28,.4],['ШЛИФОВКА',.4,.54],['ПОКРАСКА',.54,.86],['ПОЛИРОВКА И БЛИК',.86,1.01]];
+  var q=0,dir=1,inView=true,holdUntil=0,lastT=performance.now(),CYCLE=5600,HOLD=12000;
+  function clamp(v,a,b){return Math.min(1,Math.max(0,(v-a)/(b-a)))}
+  function lerp(a,b,t){return a+(b-a)*t}
+  function renderQ(v){
+    q=v;
+    var weld=clamp(v,.12,.28);
+    var fill_=clamp(v,.28,.4);
+    var sand=clamp(v,.4,.54);
+    var paint=clamp(v,.54,.86);
+    var shine=clamp(v,.86,1);
+    /* сварка: дуга едет по контуру, заплата проявляется */
+    var hp=weld*(HOLE.length-1), hi=Math.min(HOLE.length-2,Math.floor(hp)), ht=hp-Math.floor(hp);
+    var ax=lerp(HOLE[hi][0],HOLE[hi+1][0],ht), ay=lerp(HOLE[hi][1],HOLE[hi+1][1],ht);
+    arcG.setAttribute('opacity', (v>.12&&v<.28)?1:0);
+    arcDot.setAttribute('cx',ax); arcDot.setAttribute('cy',ay);
+    arcG.querySelector('circle:nth-child(2)').setAttribute('cx',ax);
+    arcG.querySelector('circle:nth-child(2)').setAttribute('cy',ay);
+    arcDot.setAttribute('r', 4+Math.abs(Math.sin(v*90))*3);
+    patchP.setAttribute('opacity', weld>0?Math.min(1,weld*1.15):0);
+    /* искры */
+    if(v>.12&&v<.28){
+      var h2='';
+      for(var i=0;i<5;i++){
+        var ang=(i/5)*Math.PI*2+v*20;
+        h2+='<circle cx="'+(ax+Math.cos(ang)*10)+'" cy="'+(ay+Math.sin(ang)*10-6)+'" r="'+(1.5+i%2)+'" fill="rgba(220,235,255,'+(0.85-i*0.13).toFixed(2)+')"/>';
+      }
+      sparksG.innerHTML=h2;
+    } else sparksG.innerHTML='';
+    /* шпаклёвка */
+    puttyR.setAttribute('opacity', fill_*0.95);
+    puttyR.setAttribute('fill', sand>0?'#CFC7BD':'#B9AFA4');
+    sanderG.setAttribute('opacity',(v>.4&&v<.54)?1:0);
+    if(v>.4&&v<.54){
+      var sx=lerp(600,668,sand), sy=lerp(315,286,sand)+Math.sin(v*120)*2;
+      sanderG.setAttribute('transform','translate('+sx+' '+sy+')');
+    }
+    /* покраска: краскопульт едет, краска наливается маской */
+    gunG.setAttribute('opacity',(v>.54&&v<.86)?1:0);
+    var gx=lerp(100,700,paint);
+    gunG.setAttribute('transform','translate('+gx+' 250)');
+    sprayP.setAttribute('opacity',(v>.54&&v<.86)?.8:0);
+    sprayP.setAttribute('points',(gx+30)+',246 '+(gx+52)+',262 '+(gx+52)+',306 '+(gx+30)+',322');
+    clipRect.setAttribute('width', Math.max(0,gx-100));
+    paintP.setAttribute('opacity', paint>0?1:0);
+    /* полировка: блик скользит */
+    shineE.setAttribute('opacity', (v>.86&&v<1)?.5:0);
+    if(v>.86){
+      var shx=lerp(160,620,shine);
+      shineE.setAttribute('cx',shx); shineE.setAttribute('cy',255);
+    }
+    /* ржавые пятна исчезают под краской — они перекрыты paintP */
+    /* счётчики */
+    phase.textContent=PH[0][0];
+    for(var p=0;p<PH.length;p++){ if(v>=PH[p][1]&&v<PH[p][2]){phase.textContent=PH[p][0];break;} }
+    var done=Math.round(clamp(v,0,.95)*100);
+    pct.textContent=done+'%';
+    stamp.setAttribute('opacity', v>.95?1:0);
+  }
+  function tick(t){
+    var dt=t-lastT; lastT=t;
+    if(inView&&t>holdUntil){
+      q+=dir*dt/CYCLE;
+      if(q>=1){q=1;dir=-1;holdUntil=t+HOLD;}
+      else if(q<=0){q=0;dir=1;}
+      renderQ(q);
+    }
+    requestAnimationFrame(tick);
+  }
+  renderQ(0); requestAnimationFrame(tick);
+  setInterval(function(){
+    var r=box.getBoundingClientRect();
+    inView=(r.top<(window.innerHeight||800)-40&&r.bottom>40);
+  },500);
+  window.__wow={renderQ:renderQ,state:function(){return {q:q.toFixed(2),phase:phase.textContent,pct:pct.textContent,stamp:stamp.getAttribute('opacity'),color:COLORS[MODE]}}};
+})();
+(function(){
+  var lb=document.getElementById('lbbox'), im=document.getElementById('lbimg');
+  document.addEventListener('click',function(e){
+    var a=e.target.closest('a[data-lb]');
+    if(a){e.preventDefault(); im.src=a.getAttribute('href'); lb.classList.add('on');}
+  });
+  document.getElementById('lbclose').addEventListener('click',function(){lb.classList.remove('on')});
+  lb.addEventListener('click',function(e){if(e.target===lb)lb.classList.remove('on')});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('on')});
+})();
+(function(){
+  var f=document.getElementById('jform'); if(!f) return;
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var ok=true;
+    ['f-name','f-tel'].forEach(function(id){
+      var el=document.getElementById(id);
+      if(!el.value.trim()){ok=false;el.style.borderColor='#D05A5A'}else{el.style.borderColor=''}
+    });
+    if(!ok) return;
+    document.getElementById('fok').style.display='block';
+    f.reset();
+  });
+})();
+</script>
+<script>window.__ok=1;</script>
+</body>
+</html>
